@@ -1,0 +1,286 @@
+PC 29@DESKTOP-CKBGDJU MINGW64 ~/Desktop/installer- laravel/first
+$ ls
+Pogi/
+
+PC 29@DESKTOP-CKBGDJU MINGW64 ~/Desktop/installer- laravel/first
+$ cd
+
+PC 29@DESKTOP-CKBGDJU MINGW64 ~
+$ ls
+ 002-cli-activity/        Music/                                                                                         ntuser.ini      
+'3D Objects'/            'My Documents'@                                                                                 OneDrive/       
+ AppData/                 NetHood@                                                                                       Pictures/       
+'Application Data'@       NTUSER.DAT                                                                                     PrintHood@      
+ Contacts/                ntuser.dat.LOG1                                                                                Recent@
+ Cookies@                 ntuser.dat.LOG2                                                                               'Saved Games'/   
+ Desktop/                 NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.0.regtrans-ms                             Searches/       
+ Documents/               NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.1.regtrans-ms                             SendTo@
+ Downloads/               NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.2.regtrans-ms                            'Start Menu'@    
+ Favorites/               NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.blf                                       Templates@      
+ IntelGraphicsProfiles/   NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf                                        Videos/
+ Links/                   NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms  'VirtualBox VMs'/
+'Local Settings'@         NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+
+PC 29@DESKTOP-CKBGDJU MINGW64 ~
+$ cd Document/
+bash: cd: Document/: No such file or directory
+
+PC 29@DESKTOP-CKBGDJU MINGW64 ~
+$ cd Documents/
+
+PC 29@DESKTOP-CKBGDJU MINGW64 ~/Documents
+$ ls
+ 001-cli-activity/  'Assignment#1_Programming Languages.pdf'  'Custom Office Templates'/   Index.hdml  'My Pictures'@  'Rica Mae A.docx'             work1.text
+ 002-cli-activity/  'CABRAL ACT3.xlsx'                         desktop.ini                 Lapitan/    'My Videos'@    'STATISTICAL SUMMARY1.xlsx'
+ 004-cli/           'cabral q3.xlsx'                           Index.css                  'My Music'@  'PHStat 4'/      TESTING/
+
+PC 29@DESKTOP-CKBGDJU MINGW64 ~/Documents
+$ cd 001-cli-activity
+
+PC 29@DESKTOP-CKBGDJU MINGW64 ~/Documents/001-cli-activity
+$ cd ..
+
+PC 29@DESKTOP-CKBGDJU MINGW64 ~/Documents
+$ ls
+ 001-cli-activity/  'Assignment#1_Programming Languages.pdf'  'Custom Office Templates'/   Index.hdml  'My Pictures'@  'Rica Mae A.docx'             work1.text
+ 002-cli-activity/  'CABRAL ACT3.xlsx'                         desktop.ini                 Lapitan/    'My Videos'@    'STATISTICAL SUMMARY1.xlsx'
+ 004-cli/           'cabral q3.xlsx'                           Index.css                  'My Music'@  'PHStat 4'/      TESTING/
+
+PC 29@DESKTOP-CKBGDJU MINGW64 ~/Documents
+$ git clone https://github.com/Khero3/New-cli-activity.git
+Cloning into 'New-cli-activity'...
+warning: You appear to have cloned an empty repository.
+
+PC 29@DESKTOP-CKBGDJU MINGW64 ~/Documents
+$ mkdir git-activity
+
+PC 29@DESKTOP-CKBGDJU MINGW64 ~/Documents
+$ cd git-activity
+
+PC 29@DESKTOP-CKBGDJU MINGW64 ~/Documents/git-activity
+$ touch index.html
+
+PC 29@DESKTOP-CKBGDJU MINGW64 ~/Documents/git-activity
+$ git add index.html
+fatal: not a git repository (or any of the parent directories): .git
+
+PC 29@DESKTOP-CKBGDJU MINGW64 ~/Documents/git-activity
+$ git clone https://github.com/Khero3/New-cli-activity.git
+Cloning into 'New-cli-activity'...
+warning: You appear to have cloned an empty repository.
+
+PC 29@DESKTOP-CKBGDJU MINGW64 ~/Documents/git-activity
+$ ls
+index.html  New-cli-activity/
+
+PC 29@DESKTOP-CKBGDJU MINGW64 ~/Documents/git-activity
+$ cd New-cli-activity
+
+PC 29@DESKTOP-CKBGDJU MINGW64 ~/Documents/git-activity/New-cli-activity (main)
+$ git branch jerremy
+fatal: not a valid object name: 'main'
+
+PC 29@DESKTOP-CKBGDJU MINGW64 ~/Documents/git-activity/New-cli-activity (main)
+$ touch index.html
+
+PC 29@DESKTOP-CKBGDJU MINGW64 ~/Documents/git-activity/New-cli-activity (main)
+$ git add index.html
+
+PC 29@DESKTOP-CKBGDJU MINGW64 ~/Documents/git-activity/New-cli-activity (main)
+$ git commit -m added index.html
+[main (root-commit) 6c2a0b7] added
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.html
+
+PC 29@DESKTOP-CKBGDJU MINGW64 ~/Documents/git-activity/New-cli-activity (main)
+$ git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 208 bytes | 208.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Khero3/New-cli-activity.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+PC 29@DESKTOP-CKBGDJU MINGW64 ~/Documents/git-activity/New-cli-activity (main)
+$ code index.html
+
+PC 29@DESKTOP-CKBGDJU MINGW64 ~/Documents/git-activity/New-cli-activity (main)
+$ git add index.html 
+
+PC 29@DESKTOP-CKBGDJU MINGW64 ~/Documents/git-activity/New-cli-activity (main)
+$ git commit -m "Added text"
+[main 3eabd3b] Added text
+ 1 file changed, 1 insertion(+)
+
+PC 29@DESKTOP-CKBGDJU MINGW64 ~/Documents/git-activity/New-cli-activity (main)
+$ git push -u origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Writing objects: 100% (3/3), 258 bytes | 258.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Khero3/New-cli-activity.git
+   6c2a0b7..3eabd3b  main -> main
+branch 'main' set up to track 'origin/main'.
+
+PC 29@DESKTOP-CKBGDJU MINGW64 ~/Documents/git-activity/New-cli-activity (main)
+$ touch style.css
+
+PC 29@DESKTOP-CKBGDJU MINGW64 ~/Documents/git-activity/New-cli-activity (main)
+$ ls
+index.html  style.css
+
+PC 29@DESKTOP-CKBGDJU MINGW64 ~/Documents/git-activity/New-cli-activity (main)
+$ git add style.css
+
+PC 29@DESKTOP-CKBGDJU MINGW64 ~/Documents/git-activity/New-cli-activity (main)
+$ git commit -m style.css
+[main 983656a] style.css
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 style.css
+
+PC 29@DESKTOP-CKBGDJU MINGW64 ~/Documents/git-activity/New-cli-activity (main)
+$ git push -u origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 276 bytes | 276.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Khero3/New-cli-activity.git
+   3eabd3b..983656a  main -> main
+branch 'main' set up to track 'origin/main'.
+
+PC 29@DESKTOP-CKBGDJU MINGW64 ~/Documents/git-activity/New-cli-activity (main)
+$ touch another.html
+
+PC 29@DESKTOP-CKBGDJU MINGW64 ~/Documents/git-activity/New-cli-activity (main)
+$ git add another.html
+
+PC 29@DESKTOP-CKBGDJU MINGW64 ~/Documents/git-activity/New-cli-activity (main)
+$ git commit -m another.html
+[main d599588] another.html
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 another.html
+
+PC 29@DESKTOP-CKBGDJU MINGW64 ~/Documents/git-activity/New-cli-activity (main)
+$ git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 280 bytes | 280.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Khero3/New-cli-activity.git
+   983656a..d599588  main -> main
+branch 'main' set up to track 'origin/main'.
+
+PC 29@DESKTOP-CKBGDJU MINGW64 ~/Documents/git-activity/New-cli-activity (main)
+$ code style.css
+
+PC 29@DESKTOP-CKBGDJU MINGW64 ~/Documents/git-activity/New-cli-activity (main)
+$ git commit -m style.css
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   style.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+PC 29@DESKTOP-CKBGDJU MINGW64 ~/Documents/git-activity/New-cli-activity (main)
+$ git add style.css
+
+PC 29@DESKTOP-CKBGDJU MINGW64 ~/Documents/git-activity/New-cli-activity (main)
+$ git commit -m style.css
+[main b5ee9df] style.css
+ 1 file changed, 1 insertion(+)
+
+PC 29@DESKTOP-CKBGDJU MINGW64 ~/Documents/git-activity/New-cli-activity (main)
+$ git push -u origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 275 bytes | 275.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Khero3/New-cli-activity.git
+   d599588..b5ee9df  main -> main
+branch 'main' set up to track 'origin/main'.
+
+PC 29@DESKTOP-CKBGDJU MINGW64 ~/Documents/git-activity/New-cli-activity (main)
+$ ls
+another.html  index.html  style.css
+
+PC 29@DESKTOP-CKBGDJU MINGW64 ~/Documents/git-activity/New-cli-activity (main)
+$ touch script.js
+
+PC 29@DESKTOP-CKBGDJU MINGW64 ~/Documents/git-activity/New-cli-activity (main)
+$ git add script.js
+
+PC 29@DESKTOP-CKBGDJU MINGW64 ~/Documents/git-activity/New-cli-activity (main)
+$ git commit -m "script.js"
+[main 2224eac] script.js
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 script.js
+
+PC 29@DESKTOP-CKBGDJU MINGW64 ~/Documents/git-activity/New-cli-activity (main)
+$ git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 255 bytes | 255.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Khero3/New-cli-activity.git
+   b5ee9df..2224eac  main -> main
+branch 'main' set up to track 'origin/main'.
+
+PC 29@DESKTOP-CKBGDJU MINGW64 ~/Documents/git-activity/New-cli-activity (main)
+$ code script.js
+
+PC 29@DESKTOP-CKBGDJU MINGW64 ~/Documents/git-activity/New-cli-activity (main)
+$ git add script.js
+
+PC 29@DESKTOP-CKBGDJU MINGW64 ~/Documents/git-activity/New-cli-activity (main)
+$ git commit -m "script.js"
+[main 4ab5cbb] script.js
+ 1 file changed, 1 insertion(+)
+
+PC 29@DESKTOP-CKBGDJU MINGW64 ~/Documents/git-activity/New-cli-activity (main)
+$ git push -u origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 291 bytes | 291.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Khero3/New-cli-activity.git
+   2224eac..4ab5cbb  main -> main
+branch 'main' set up to track 'origin/main'.
+
+PC 29@DESKTOP-CKBGDJU MINGW64 ~/Documents/git-activity/New-cli-activity (main)
+$ git add "script.js"
+
+PC 29@DESKTOP-CKBGDJU MINGW64 ~/Documents/git-activity/New-cli-activity (main)
+$ git commit -m "dina ako makikinig dahil pabida ako!"
+[main 033f816] dina ako makikinig dahil pabida ako!
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+PC 29@DESKTOP-CKBGDJU MINGW64 ~/Documents/git-activity/New-cli-activity (main)
+$ git push -u origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 336 bytes | 336.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Khero3/New-cli-activity.git
+   4ab5cbb..033f816  main -> main
+branch 'main' set up to track 'origin/main'.
